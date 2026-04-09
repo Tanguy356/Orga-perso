@@ -124,12 +124,12 @@ export default function InternalLayout({
 
   useEffect(() => {
     const supabase = createClient();
-    supabase.auth.getUser().then(({ data }) => {
-      if (!data.user) {
+    supabase.auth.getUser().then((res: { data: { user: { email?: string } | null }; error: unknown }) => {
+      if (!res.data.user) {
         router.push("/login");
       } else {
         setAuthenticated(true);
-        setUsername((data.user as { email?: string }).email || "");
+        setUsername(res.data.user.email || "");
       }
     });
   }, [router]);
