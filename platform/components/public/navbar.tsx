@@ -2,7 +2,7 @@
 
 import { useTranslations } from "next-intl";
 import { Link, usePathname, useRouter } from "@/lib/i18n/navigation";
-import { Menu, X } from "lucide-react";
+import { Menu, X, LogIn } from "lucide-react";
 import { useState } from "react";
 import { useLocale } from "next-intl";
 
@@ -56,6 +56,13 @@ export function PublicNavbar() {
           >
             {t("contact")}
           </Link>
+          <Link
+            href="/login"
+            className="p-2 rounded-full text-slate-400 hover:text-slate-900 hover:bg-slate-100 transition-colors"
+            title="Login"
+          >
+            <LogIn className="w-4 h-4" />
+          </Link>
         </nav>
 
         {/* Mobile toggle */}
@@ -90,6 +97,14 @@ export function PublicNavbar() {
               className="text-sm font-semibold bg-slate-900 text-white px-5 py-2 rounded-full"
             >
               {t("contact")}
+            </Link>
+            <Link
+              href="/login"
+              onClick={() => setOpen(false)}
+              className="p-2 rounded-full text-slate-400 hover:text-slate-900 hover:bg-slate-100 transition-colors"
+              title="Login"
+            >
+              <LogIn className="w-4 h-4" />
             </Link>
           </div>
         </nav>
