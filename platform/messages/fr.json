@@ -1,0 +1,357 @@
+{
+  "common": {
+    "appName": "SimuPara",
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "create": "Créer",
+    "search": "Rechercher...",
+    "noResults": "Aucun résultat",
+    "loading": "Chargement...",
+    "confirm": "Confirmer",
+    "back": "Retour",
+    "viewAll": "Voir tout",
+    "actions": "Actions",
+    "status": "Statut",
+    "date": "Date",
+    "name": "Nom",
+    "email": "Email",
+    "phone": "Téléphone",
+    "city": "Ville",
+    "notes": "Notes",
+    "description": "Description",
+    "priority": "Priorité",
+    "deadline": "Échéance",
+    "assignee": "Responsable",
+    "company": "Entreprise",
+    "amount": "Montant",
+    "category": "Catégorie",
+    "type": "Type"
+  },
+  "nav": {
+    "dashboard": "Tableau de bord",
+    "events": "Event - Kanban",
+    "tasks": "Tâches",
+    "contacts": "Contacts",
+    "finance": "Finance",
+    "calendar": "Calendrier",
+    "documents": "Documents",
+    "website": "Voir le site",
+    "logout": "Déconnexion"
+  },
+  "dashboard": {
+    "title": "Tableau de bord",
+    "welcome": "Bonjour",
+    "myTasks": "Mes tâches",
+    "upcomingEvents": "Événements à venir",
+    "pipeline": "Pipeline",
+    "recentActivity": "Activité récente",
+    "quickActions": "Actions rapides",
+    "newEvent": "Nouvel événement",
+    "newContact": "Nouveau contact",
+    "newTask": "Nouvelle tâche",
+    "overdue": "En retard",
+    "thisWeek": "Cette semaine",
+    "noTasks": "Aucune tâche en cours",
+    "noEvents": "Aucun événement à venir",
+    "totalPipeline": "Pipeline total",
+    "eventsThisMonth": "Événements ce mois",
+    "openTasks": "Tâches ouvertes",
+    "activeLeads": "Leads actifs",
+    "portfolio": "Portfolio"
+  },
+  "events": {
+    "title": "Événements",
+    "new": "Nouvel événement",
+    "status": {
+      "draft": "Brouillon",
+      "confirmed": "Confirmé",
+      "in_prep": "En préparation",
+      "active": "En cours",
+      "completed": "Terminé",
+      "invoiced": "Facturé"
+    },
+    "fields": {
+      "title": "Titre",
+      "client": "Client",
+      "date": "Date",
+      "endDate": "Date de fin",
+      "location": "Lieu",
+      "locationCity": "Ville",
+      "priceHt": "Prix HT",
+      "priceTtc": "Prix TTC",
+      "costs": "Coûts",
+      "logistics": "Logistique",
+      "testimonial": "Témoignage",
+      "testimonialAuthor": "Auteur du témoignage",
+      "portfolioVisible": "Visible sur le portfolio"
+    },
+    "logistics": {
+      "title": "Checklist logistique",
+      "transport": "Transport aller",
+      "transportReturn": "Transport retour",
+      "assembly": "Montage simulateur",
+      "disassembly": "Démontage simulateur",
+      "technician1": "Technicien 1 confirmé",
+      "technician2": "Technicien 2 confirmé",
+      "animator": "Animateur confirmé",
+      "power": "Alimentation électrique vérifiée",
+      "space": "Espace vérifié (min. 5.5m hauteur)",
+      "insurance": "Assurance à jour",
+      "contract": "Contrat signé"
+    }
+  },
+  "tasks": {
+    "title": "Tâches",
+    "new": "Nouvelle tâche",
+    "filters": {
+      "all": "Toutes",
+      "mine": "Mes tâches",
+      "overdue": "En retard",
+      "thisWeek": "Cette semaine"
+    },
+    "status": {
+      "todo": "À faire",
+      "in_progress": "En cours",
+      "done": "Terminé"
+    },
+    "priority": {
+      "high": "Haute",
+      "medium": "Moyenne",
+      "low": "Basse"
+    },
+    "assignee": {
+      "tanguy": "Tanguy",
+      "jules": "Jules",
+      "both": "Les deux"
+    }
+  },
+  "contacts": {
+    "title": "Contacts",
+    "new": "Nouveau contact",
+    "stage": {
+      "new": "Nouveau",
+      "contacted": "Contacté",
+      "qualified": "Qualifié",
+      "proposal_sent": "Devis envoyé",
+      "negotiation": "Négociation",
+      "won": "Conclu",
+      "lost": "Perdu"
+    },
+    "source": {
+      "heavent_paris": "Heavent Paris",
+      "website": "Site web",
+      "referral": "Recommandation",
+      "cold_outreach": "Prospection",
+      "other": "Autre"
+    },
+    "fields": {
+      "fullName": "Nom complet",
+      "role": "Poste",
+      "website": "Site web",
+      "nextAction": "Prochaine action",
+      "nextActionDate": "Date prochaine action",
+      "source": "Source"
+    },
+    "interactions": {
+      "title": "Interactions",
+      "new": "Nouvelle interaction",
+      "types": {
+        "email": "Email",
+        "call": "Appel",
+        "meeting": "Réunion",
+        "event": "Événement",
+        "note": "Note"
+      }
+    }
+  },
+  "finance": {
+    "title": "Finance",
+    "overview": "Vue d'ensemble",
+    "revenue": "Chiffre d'affaires",
+    "costs": "Coûts",
+    "margin": "Marge",
+    "perEvent": "Par événement",
+    "summary": "Résumé",
+    "fixedCosts": "Coûts fixes",
+    "variableCosts": "Coûts variables",
+    "netProfit": "Résultat net",
+    "monthlyAvg": "Moy. mensuelle",
+    "recurring": "Récurrent",
+    "newEntry": "Nouvelle entrée",
+    "entryType": {
+      "fixed_cost": "Coût fixe",
+      "variable_cost": "Coût variable",
+      "revenue": "Revenu",
+      "expense": "Dépense"
+    },
+    "categories": {
+      "transport": "Transport",
+      "crew": "Équipe",
+      "equipment": "Équipement",
+      "customization": "Personnalisation",
+      "insurance": "Assurance",
+      "storage": "Stockage",
+      "maintenance": "Maintenance",
+      "other": "Autre"
+    }
+  },
+  "calendar": {
+    "title": "Calendrier",
+    "today": "Aujourd'hui",
+    "day": "Jour",
+    "week": "Semaine",
+    "month": "Mois",
+    "year": "Année"
+  },
+  "documents": {
+    "title": "Documents",
+    "upload": "Télécharger",
+    "category": {
+      "strategy": "Stratégie",
+      "product": "Produit",
+      "operations": "Opérations",
+      "marketing": "Marketing",
+      "finance": "Finance",
+      "legal": "Juridique",
+      "other": "Autre"
+    },
+    "type": {
+      "contract": "Contrat",
+      "tech_spec": "Fiche technique",
+      "presentation": "Présentation",
+      "template": "Modèle",
+      "legal": "Juridique",
+      "photo": "Photo",
+      "other": "Autre"
+    }
+  },
+  "website": {
+    "hero": {
+      "title1": "La sensation de vol",
+      "title2": "à vos événements.",
+      "subtitle": "Nous apportons un simulateur de parapente professionnel à vos événements corporate, salons et festivals. Tout compris, partout en France et au Luxembourg.",
+      "cta": "Demander un devis",
+      "services": "Découvrir nos services"
+    },
+    "stats": {
+      "allInclusive": "Dès 3 500 EUR",
+      "allInclusiveDesc": "Tarif journalier tout compris",
+      "coverage": "France & Luxembourg",
+      "coverageDesc": "On se déplace chez vous",
+      "experience": "Vu dans la presse",
+      "experienceDesc": "Les Echos, La Provence, Radio Nova"
+    },
+    "collab": {
+      "label": "En collaboration avec",
+      "description": "Notre expérience de simulateur de parapente est proposée en collaboration avec l'Agence Numero6, agence événementielle basée à La Ciotat avec plus de 25 ans d'expertise en animations corporate innovantes."
+    },
+    "benefits": {
+      "title": "Pourquoi choisir SimuPara",
+      "corporate": "Événements corporate",
+      "corporateDesc": "Impressionnez vos équipes et clients avec une expérience de vol unique. Idéal pour lancements de produits, séminaires et galas.",
+      "service": "Service tout compris",
+      "serviceDesc": "Transport, montage, technicien, animation — nous nous occupons de tout pour que vous puissiez vous concentrer sur votre événement.",
+      "teambuilding": "Team building",
+      "teambuildingDesc": "Renforcez la cohésion d'équipe avec une expérience partagée excitante qui crée des souvenirs durables."
+    },
+    "cta": {
+      "title": "Prêt à décoller ?",
+      "subtitle": "Parlons de votre événement et construisons une offre sur mesure.",
+      "button": "Nous contacter"
+    },
+    "nav": {
+      "home": "Accueil",
+      "services": "Services",
+      "portfolio": "Réalisations",
+      "contact": "Contact"
+    },
+    "services": {
+      "title": "Nos Services",
+      "subtitle": "Une prestation tout compris pour vos événements, en collaboration avec l'Agence Numero6.",
+      "included": "Inclus dans la prestation",
+      "extras": "Options disponibles",
+      "useCases": "Pour qui ?",
+      "specs": "Spécifications techniques",
+      "experience": "L'expérience",
+      "experienceDesc": "Les participants sont immergés dans un vol libre ultra-réaliste au-dessus de paysages à couper le souffle. Le simulateur reproduit les sensations d'un vrai vol en parapente avec des niveaux de difficulté et une durée de vol adaptables — accessible à tous les âges et niveaux, dans un environnement totalement sécurisé.",
+      "items": {
+        "simulator": "Simulateur de parapente",
+        "simulatorDesc": "Simulateur professionnel grandeur nature avec logiciel de simulation de vol ultra-réaliste",
+        "installation": "Installation sur site",
+        "installationDesc": "Prise en charge par 2 techniciens expérimentés sur votre lieu",
+        "animator": "Animateur dédié",
+        "animatorDesc": "Un animateur professionnel accueille les participants et les guide tout au long de l'expérience",
+        "assembly": "Logistique complète",
+        "assemblyDesc": "Montage, démontage, transport et installation inclus"
+      },
+      "extraItems": {
+        "video": "Vidéo personnalisée",
+        "videoDesc": "Vidéo de vol brandée pour votre événement",
+        "device": "Branding sur mesure",
+        "deviceDesc": "Simulateur aux couleurs de votre marque",
+        "multiDay": "Multi-jours",
+        "multiDayDesc": "Tarifs spéciaux pour événements multi-jours",
+        "transport": "Longue distance",
+        "transportDesc": "Nous nous déplaçons en France & Luxembourg"
+      },
+      "cases": {
+        "corporate": "Événements corporate",
+        "corporateDesc": "Séminaires, galas, lancements de produits, soirées d'entreprise",
+        "municipality": "Festivals municipaux",
+        "municipalityDesc": "Événements de ville, festivals culturels, inaugurations",
+        "tradeshow": "Salons professionnels",
+        "tradeshowDesc": "Stands d'exposition, événements sectoriels",
+        "teambuilding": "Team building",
+        "teambuildingDesc": "Cohésion d'équipe, activités de groupe, sensations partagées"
+      },
+      "cta": "Demander un devis"
+    },
+    "portfolio": {
+      "title": "Nos Réalisations",
+      "subtitle": "Découvrez nos événements passés et notre couverture presse.",
+      "eventsTitle": "Événements",
+      "eventsEmpty": "Aucun événement à afficher pour le moment.",
+      "pressTitle": "Presse",
+      "pressSubtitle": "Ils parlent de nous"
+    },
+    "contact": {
+      "title": "Parlons-en.",
+      "subtitle": "Décrivez-nous votre projet et nous vous répondrons sous 24 heures.",
+      "hint": "Pour vous proposer la meilleure offre, merci de préciser : le type d'événement, le nombre de participants attendus, la ou les dates souhaitées, et le lieu.",
+      "info": {
+        "email": "Email",
+        "location": "Couverture",
+        "locationValue": "France & Luxembourg"
+      },
+      "form": {
+        "name": "Votre nom",
+        "company": "Entreprise / Organisation",
+        "email": "Email",
+        "phone": "Téléphone",
+        "eventDate": "Date de l'événement (optionnel)",
+        "eventType": "Type d'événement (ex : salon, séminaire, festival...)",
+        "message": "Parlez-nous de votre projet : nombre d'invités, lieu, durée...",
+        "submit": "Envoyer le message",
+        "sending": "Envoi en cours...",
+        "success": "Message envoyé ! Nous vous répondrons sous 24 heures.",
+        "error": "Une erreur est survenue. Veuillez réessayer."
+      }
+    },
+    "footer": {
+      "tagline": "Location de simulateur de parapente professionnel pour événements corporate, salons et festivals en France et au Luxembourg. En collaboration avec l'Agence Numero6.",
+      "navigation": "Navigation",
+      "contact": "Contact",
+      "legal": "Mentions légales"
+    }
+  },
+  "auth": {
+    "login": "Connexion",
+    "name": "Nom",
+    "password": "Mot de passe",
+    "signIn": "Se connecter",
+    "error": "Nom ou mot de passe incorrect",
+    "loggingIn": "Connexion en cours..."
+  }
+}

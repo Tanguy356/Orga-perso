@@ -1,0 +1,357 @@
+{
+  "common": {
+    "appName": "SimuPara",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "create": "Create",
+    "search": "Search...",
+    "noResults": "No results",
+    "loading": "Loading...",
+    "confirm": "Confirm",
+    "back": "Back",
+    "viewAll": "View all",
+    "actions": "Actions",
+    "status": "Status",
+    "date": "Date",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "city": "City",
+    "notes": "Notes",
+    "description": "Description",
+    "priority": "Priority",
+    "deadline": "Deadline",
+    "assignee": "Assignee",
+    "company": "Company",
+    "amount": "Amount",
+    "category": "Category",
+    "type": "Type"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "events": "Event - Kanban",
+    "tasks": "Tasks",
+    "contacts": "Contacts",
+    "finance": "Finance",
+    "calendar": "Calendar",
+    "documents": "Documents",
+    "website": "View site",
+    "logout": "Log out"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "welcome": "Hello",
+    "myTasks": "My Tasks",
+    "upcomingEvents": "Upcoming Events",
+    "pipeline": "Pipeline",
+    "recentActivity": "Recent Activity",
+    "quickActions": "Quick Actions",
+    "newEvent": "New Event",
+    "newContact": "New Contact",
+    "newTask": "New Task",
+    "overdue": "Overdue",
+    "thisWeek": "This week",
+    "noTasks": "No tasks in progress",
+    "noEvents": "No upcoming events",
+    "totalPipeline": "Total Pipeline",
+    "eventsThisMonth": "Events This Month",
+    "openTasks": "Open Tasks",
+    "activeLeads": "Active Leads",
+    "portfolio": "Portfolio"
+  },
+  "events": {
+    "title": "Events",
+    "new": "New Event",
+    "status": {
+      "draft": "Draft",
+      "confirmed": "Confirmed",
+      "in_prep": "In Preparation",
+      "active": "Active",
+      "completed": "Completed",
+      "invoiced": "Invoiced"
+    },
+    "fields": {
+      "title": "Title",
+      "client": "Client",
+      "date": "Date",
+      "endDate": "End Date",
+      "location": "Location",
+      "locationCity": "City",
+      "priceHt": "Price excl. tax",
+      "priceTtc": "Price incl. tax",
+      "costs": "Costs",
+      "logistics": "Logistics",
+      "testimonial": "Testimonial",
+      "testimonialAuthor": "Testimonial Author",
+      "portfolioVisible": "Visible on portfolio"
+    },
+    "logistics": {
+      "title": "Logistics Checklist",
+      "transport": "Transport outbound",
+      "transportReturn": "Transport return",
+      "assembly": "Simulator assembly",
+      "disassembly": "Simulator disassembly",
+      "technician1": "Technician 1 confirmed",
+      "technician2": "Technician 2 confirmed",
+      "animator": "Animator confirmed",
+      "power": "Power supply verified",
+      "space": "Space verified (min. 5.5m height)",
+      "insurance": "Insurance up to date",
+      "contract": "Contract signed"
+    }
+  },
+  "tasks": {
+    "title": "Tasks",
+    "new": "New Task",
+    "filters": {
+      "all": "All",
+      "mine": "My Tasks",
+      "overdue": "Overdue",
+      "thisWeek": "This Week"
+    },
+    "status": {
+      "todo": "To Do",
+      "in_progress": "In Progress",
+      "done": "Done"
+    },
+    "priority": {
+      "high": "High",
+      "medium": "Medium",
+      "low": "Low"
+    },
+    "assignee": {
+      "tanguy": "Tanguy",
+      "jules": "Jules",
+      "both": "Both"
+    }
+  },
+  "contacts": {
+    "title": "Contacts",
+    "new": "New Contact",
+    "stage": {
+      "new": "New",
+      "contacted": "Contacted",
+      "qualified": "Qualified",
+      "proposal_sent": "Proposal Sent",
+      "negotiation": "Negotiation",
+      "won": "Concluded",
+      "lost": "Lost"
+    },
+    "source": {
+      "heavent_paris": "Heavent Paris",
+      "website": "Website",
+      "referral": "Referral",
+      "cold_outreach": "Cold Outreach",
+      "other": "Other"
+    },
+    "fields": {
+      "fullName": "Full Name",
+      "role": "Role",
+      "website": "Website",
+      "nextAction": "Next Action",
+      "nextActionDate": "Next Action Date",
+      "source": "Source"
+    },
+    "interactions": {
+      "title": "Interactions",
+      "new": "New Interaction",
+      "types": {
+        "email": "Email",
+        "call": "Call",
+        "meeting": "Meeting",
+        "event": "Event",
+        "note": "Note"
+      }
+    }
+  },
+  "finance": {
+    "title": "Finance",
+    "overview": "Overview",
+    "revenue": "Revenue",
+    "costs": "Costs",
+    "margin": "Margin",
+    "perEvent": "Per Event",
+    "summary": "Summary",
+    "fixedCosts": "Fixed Costs",
+    "variableCosts": "Variable Costs",
+    "netProfit": "Net Profit",
+    "monthlyAvg": "Monthly avg.",
+    "recurring": "Recurring",
+    "newEntry": "New Entry",
+    "entryType": {
+      "fixed_cost": "Fixed Cost",
+      "variable_cost": "Variable Cost",
+      "revenue": "Revenue",
+      "expense": "Expense"
+    },
+    "categories": {
+      "transport": "Transport",
+      "crew": "Crew",
+      "equipment": "Equipment",
+      "customization": "Customization",
+      "insurance": "Insurance",
+      "storage": "Storage",
+      "maintenance": "Maintenance",
+      "other": "Other"
+    }
+  },
+  "calendar": {
+    "title": "Calendar",
+    "today": "Today",
+    "day": "Day",
+    "week": "Week",
+    "month": "Month",
+    "year": "Year"
+  },
+  "documents": {
+    "title": "Documents",
+    "upload": "Upload",
+    "category": {
+      "strategy": "Strategy",
+      "product": "Product",
+      "operations": "Operations",
+      "marketing": "Marketing",
+      "finance": "Finance",
+      "legal": "Legal",
+      "other": "Other"
+    },
+    "type": {
+      "contract": "Contract",
+      "tech_spec": "Technical Spec",
+      "presentation": "Presentation",
+      "template": "Template",
+      "legal": "Legal",
+      "photo": "Photo",
+      "other": "Other"
+    }
+  },
+  "website": {
+    "hero": {
+      "title1": "The flight sensation",
+      "title2": "at your events.",
+      "subtitle": "We bring a professional paragliding simulator to your corporate events, trade shows and festivals. All-inclusive, anywhere in France and Luxembourg.",
+      "cta": "Get a quote",
+      "services": "Discover our services"
+    },
+    "stats": {
+      "allInclusive": "From 3,500 EUR",
+      "allInclusiveDesc": "All-inclusive daily rate",
+      "coverage": "France & Luxembourg",
+      "coverageDesc": "We travel to you",
+      "experience": "Featured in press",
+      "experienceDesc": "Les Echos, La Provence, Radio Nova"
+    },
+    "collab": {
+      "label": "In collaboration with",
+      "description": "Our paragliding simulator experience is delivered in collaboration with Agence Numero6, a leading event agency based in La Ciotat with over 25 years of expertise in innovative corporate animations."
+    },
+    "benefits": {
+      "title": "Why choose SimuPara",
+      "corporate": "Corporate events",
+      "corporateDesc": "Wow your teams and clients with a one-of-a-kind flight experience. Perfect for product launches, seminars and galas.",
+      "service": "All-inclusive service",
+      "serviceDesc": "Transport, assembly, technician, animation — we take care of everything so you can focus on your event.",
+      "teambuilding": "Team building",
+      "teambuildingDesc": "Build team cohesion with an exciting shared experience that creates lasting memories."
+    },
+    "cta": {
+      "title": "Ready to take off?",
+      "subtitle": "Let's discuss your event and build a custom offer.",
+      "button": "Contact us"
+    },
+    "nav": {
+      "home": "Home",
+      "services": "Services",
+      "portfolio": "Portfolio",
+      "contact": "Contact"
+    },
+    "services": {
+      "title": "Our Services",
+      "subtitle": "An all-inclusive solution for your events, in collaboration with Agence Numero6.",
+      "included": "What's included",
+      "extras": "Available add-ons",
+      "useCases": "Who is it for?",
+      "specs": "Technical Specifications",
+      "experience": "The experience",
+      "experienceDesc": "Participants are immersed in an ultra-realistic free flight over breathtaking landscapes. The simulator recreates the sensations of a real paragliding flight with adaptable difficulty levels and flight duration — suitable for all ages and skill levels, in a completely safe environment.",
+      "items": {
+        "simulator": "Paragliding simulator",
+        "simulatorDesc": "Full-size professional simulator with immersive flight experience and ultra-realistic flight simulation software",
+        "installation": "On-site installation",
+        "installationDesc": "Handled by 2 experienced technicians at your venue",
+        "animator": "Dedicated animator",
+        "animatorDesc": "A professional animator briefs participants and guides them through the experience",
+        "assembly": "Full logistics",
+        "assemblyDesc": "Assembly, disassembly, transport and all setup included"
+      },
+      "extraItems": {
+        "video": "Custom video",
+        "videoDesc": "Branded flight footage for your event",
+        "device": "Custom branding",
+        "deviceDesc": "Simulator branded to your colours",
+        "multiDay": "Multi-day",
+        "multiDayDesc": "Special rates for multi-day events",
+        "transport": "Long distance",
+        "transportDesc": "We travel anywhere in France & Luxembourg"
+      },
+      "cases": {
+        "corporate": "Corporate events",
+        "corporateDesc": "Seminars, galas, product launches, evening receptions",
+        "municipality": "Municipal festivals",
+        "municipalityDesc": "City events, cultural festivals, inaugurations",
+        "tradeshow": "Trade shows",
+        "tradeshowDesc": "Exhibition stands, industry events",
+        "teambuilding": "Team building",
+        "teambuildingDesc": "Team cohesion, group activities, shared thrills"
+      },
+      "cta": "Request a quote"
+    },
+    "portfolio": {
+      "title": "Our Portfolio",
+      "subtitle": "Discover our past events and press coverage.",
+      "eventsTitle": "Events",
+      "eventsEmpty": "No events to show yet. Check back soon!",
+      "pressTitle": "Press",
+      "pressSubtitle": "They talked about us"
+    },
+    "contact": {
+      "title": "Let's talk.",
+      "subtitle": "Tell us about your project and we'll get back to you within 24 hours.",
+      "hint": "To help us prepare the best offer, please include: the type of event, expected number of participants, desired date(s), and venue location.",
+      "info": {
+        "email": "Email",
+        "location": "Coverage",
+        "locationValue": "France & Luxembourg"
+      },
+      "form": {
+        "name": "Your name",
+        "company": "Company / Organisation",
+        "email": "Email",
+        "phone": "Phone",
+        "eventDate": "Event date (optional)",
+        "eventType": "Event type (e.g. trade show, seminar, festival...)",
+        "message": "Tell us about your project: number of guests, venue, duration...",
+        "submit": "Send message",
+        "sending": "Sending...",
+        "success": "Message sent! We'll get back to you within 24 hours.",
+        "error": "An error occurred. Please try again."
+      }
+    },
+    "footer": {
+      "tagline": "Professional paragliding simulator rental for corporate events, trade shows and festivals across France and Luxembourg. In collaboration with Agence Numero6.",
+      "navigation": "Navigation",
+      "contact": "Contact",
+      "legal": "Legal notice"
+    }
+  },
+  "auth": {
+    "login": "Login",
+    "name": "Name",
+    "password": "Password",
+    "signIn": "Sign in",
+    "error": "Invalid name or password",
+    "loggingIn": "Signing in..."
+  }
+}
