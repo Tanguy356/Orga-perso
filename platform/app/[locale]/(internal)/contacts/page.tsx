@@ -253,7 +253,7 @@ export default function ContactsPage() {
         toast.info("All contacts from this file are already imported");
       } else {
         toast.success(`${imported} contacts imported`);
-        fetchData();
+        fetchContacts();
       }
     } catch {
       toast.error("Failed to parse file");
