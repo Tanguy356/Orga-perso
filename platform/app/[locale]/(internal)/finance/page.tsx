@@ -430,7 +430,7 @@ export default function FinancePage() {
               {/* Category */}
               <div className="space-y-1.5">
                 <Label>{tc("category")}</Label>
-                <Select value={formCategory} onValueChange={setFormCategory}>
+                <Select value={formCategory} onValueChange={(val) => setFormCategory(val ?? "")}>
                   <SelectTrigger className="w-full">
                     <SelectValue placeholder={tc("category")} />
                   </SelectTrigger>
