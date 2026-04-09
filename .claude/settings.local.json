@@ -1,0 +1,35 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm --version)",
+      "Bash(npm install:*)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3000)",
+      "Bash(npx tsc:*)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3000/fr)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3001/fr)",
+      "Bash(netstat -ano)",
+      "Bash(taskkill //PID 41832 //F)",
+      "Bash(curl -sL -o /dev/null -w \"%{http_code}\" http://localhost:3000/fr)",
+      "Bash(curl -sL -o /dev/null -w \"%{http_code}\" http://localhost:3000/fr/dashboard)",
+      "Bash(:)",
+      "Bash(curl -sL http://localhost:3000/fr/events)",
+      "Bash(curl -sL http://localhost:3000/fr/dashboard)",
+      "Bash(npm run:*)",
+      "Bash(kill %1)",
+      "Bash(wait)",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(npx next:*)",
+      "Bash(npx eslint:*)",
+      "Bash(python -m markitdown \"2. Product & Services/1 page - consolidation_.docx\")",
+      "Bash(python -m markitdown \"2. Product & Services/Commentaire presentation - V0.docx\")",
+      "Bash(python -m markitdown \"2. Product & Services/1 er jet presentation infos _ technique .pdf\")",
+      "Bash(python -m markitdown \"2. Product & Services/SIMULATEUR DE PARAPENTE - COLLECTIVITÉS.pptx\")",
+      "Bash(python -m markitdown \"2. Product & Services/Brouillon Simulateur de parapente 2025.pptx\")",
+      "Bash(python3)",
+      "Read(//c/tmp/**)",
+      "Bash(unzip -q \"/c/Users/TanguyChristophe/IdeaProjects/Orga perso/1. Strategy & Vision/Nos forces_atoûts.docx\" -d nos_forces)",
+      "Bash(pandoc \"Orga perso/1. Strategy & Vision/Nos forces_atoûts.docx\" -t plain)",
+      "Bash(ls \"C:\\\\Users\\\\TanguyChristophe\\\\IdeaProjects\\\\Orga perso\\\\2. Product & Services/\"*.pptx)"
+    ]
+  }
+}
